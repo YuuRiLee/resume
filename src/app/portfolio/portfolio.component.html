@@ -1,0 +1,56 @@
+<section *ngIf="datas">
+  <div class="content">
+    <h2>Develop</h2>
+    <h3>Career</h3>
+    <div class="grid">
+      <figure class="effect-sarah" *ngFor="let data of datas.develop.career">
+        <div [ngStyle]="{
+            'background-color': '#' + data.bgColor, 
+            'background-image': 'url(' + data.url + ')'
+          }" class="background"></div>
+        <figcaption>
+          <h2>{{data.title}}<span>{{data.emphasisTitle}}</span></h2>
+          <div>
+            <span *ngFor="let t of data.tag">{{t}}</span>
+          </div>
+          <a href="#">View more</a>
+        </figcaption>
+      </figure>
+    </div>
+    <h3>Propject</h3>
+    <div class="grid">
+      <figure class="effect-sarah" *ngFor="let data of datas.develop.project">
+        <div [ngStyle]="{
+            'background-color': '#' + data.bgColor, 
+            'background-image': 'url(' + data.url + ')'
+          }" class="background"></div>
+        <figcaption>
+          <h2>{{data.title}}<span>{{data.emphasisTitle}}</span></h2>
+          <div>
+            <span *ngFor="let t of data.tag">{{t}}</span>
+          </div>
+          <a href="#">View more</a>
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="content">
+    <h2>Design</h2>
+    <h3>Propject</h3>
+    <div class="grid">
+      <figure class="effect-sarah" *ngFor="let data of datas.design">
+        <div [ngStyle]="{
+          'background-color': '#' + data.bgColor, 
+          'background-image': 'url(' + data.url + ')'
+        }" class="background"></div>
+        <figcaption>
+          <h2>{{data.title}}<span>{{data.emphasisTitle}}</span></h2>
+          <div>
+            <span *ngFor="let t of data.tag">{{t}}</span>
+          </div>
+          <a href="#">View more</a>
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
