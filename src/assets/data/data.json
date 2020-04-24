@@ -2,6 +2,7 @@
   "develop": {
     "career": [
       {
+        "id": "snowpalm",
         "title": "Snow",
         "emphasisTitle": "palm",
         "url": "./assets/imgs/snowpalm3.jpg",
@@ -17,8 +18,9 @@
         "bgColor": "5EB08B"
       },
       {
+        "id": "snowpalm_pic",
         "title": "Snowpalm ",
-        "emphasisTitle": "Pic Web",
+        "emphasisTitle": "Pic",
         "url": "./assets/imgs/peple_list.jpg",
         "tag": [
           "Angular",
@@ -30,6 +32,7 @@
         "bgColor": "25272b"
       },
       {
+        "id": "snowpalm_animation",
         "title": "Snowpalm ",
         "emphasisTitle": "Animation",
         "url": "./assets/imgs/snowpalm_main.jpg",
@@ -49,6 +52,7 @@
     ],
     "project": [
       {
+        "id": "word_way",
         "title": "글길 리팩토링 - ",
         "emphasisTitle": "글적글적",
         "url": "./assets/imgs/word-way_main.png",
@@ -57,6 +61,7 @@
           "Redux",
           "Typescript",
           "Styled-components",
+          "Atomic Design",
           "Storybook",
           "SCSS",
           "HTML5"
@@ -64,6 +69,7 @@
         "bgColor": "0077ff"
       },
       {
+        "id": "daJeongBot",
         "title": "일상 속에 하루를 담다 - ",
         "emphasisTitle": "다정봇",
         "url": "./assets/imgs/bot.jpg",
@@ -74,6 +80,7 @@
         "bgColor": "f8e750"
       },
       {
+        "id": "ohDormitory",
         "title": "오늘 몇 시 점호야? - ",
         "emphasisTitle": "오몇점",
         "url": "./assets/imgs/oh.png",
@@ -92,6 +99,7 @@
   },
   "design": [
     {
+      "id": "music",
       "title": "LP ",
       "emphasisTitle": "Music",
       "url": "./assets/imgs/music_detail.jpg",
@@ -104,6 +112,7 @@
       "bgColor": "71b9e4"
     },
     {
+      "id": "neumorphism",
       "title": "Neu",
       "emphasisTitle": "morphism ",
       "url": "./assets/imgs/neu_작성완료.jpg",
@@ -116,6 +125,7 @@
       "bgColor": "6f9efa"
     },
     {
+      "id": "reviewer",
       "title": "Review",
       "emphasisTitle": "er",
       "url": "./assets/imgs/book_메인.jpg",
@@ -126,6 +136,7 @@
       "bgColor": "70bea3"
     },
     {
+      "id": "spider_man",
       "title": "SPIDER-MAN ",
       "emphasisTitle": "Far From Home",
       "url": "./assets/imgs/spiderman.jpg",
@@ -135,6 +146,7 @@
       "bgColor": "426aa5"
     },
     {
+      "id": "walk",
       "title": "밤 ",
       "emphasisTitle": "산책",
       "url": "./assets/imgs/walk.jpg",
@@ -144,7 +156,8 @@
       "bgColor": "6964b6"
     },
     {
-      "title": "잠만보와 ",
+      "id": "pokemon",
+      "title": "잠만보와의 ",
       "emphasisTitle": "하루",
       "url": "./assets/imgs/poketmon2.jpg",
       "tag": [
@@ -153,15 +166,7 @@
       "bgColor": "003366"
     },
     {
-      "title": "꿈 ",
-      "emphasisTitle": "속에서",
-      "url": "./assets/imgs/poketmon1.jpg",
-      "tag": [
-        "Adobe Illustrator"
-      ],
-      "bgColor": "003366"
-    },
-    {
+      "id": "waiting",
       "title": "기다림",
       "emphasisTitle": "",
       "url": "./assets/imgs/people.jpg",
@@ -169,6 +174,16 @@
         "Adobe Illustrator"
       ],
       "bgColor": "333366"
+    },
+    {
+      "id": "panel",
+      "title": "교내 졸업 전시회 ",
+      "emphasisTitle": "패널",
+      "url": "./assets/imgs/panal_wordway.png",
+      "tag": [
+        "Adobe Photoshop"
+      ],
+      "bgColor": "406bb4"
     }
   ]
 }
