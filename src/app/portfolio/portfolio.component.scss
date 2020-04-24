@@ -19,6 +19,7 @@
   width: 48%;
   background: #000000;
   border-radius: 12px;
+  cursor: pointer;
 }
 
 .grid figure .background {
@@ -155,10 +156,6 @@ figure.effect-marley:hover p {
 /***** Sarah *****/
 /*---------------*/
 
-figure.effect-sarah {
-  background: #42b078;
-}
-
 figure.effect-sarah .background {
   max-width: none;
   width: -webkit-calc(100% + 20px);
@@ -258,14 +255,5 @@ section {
     font-size: 2em;
     color: #666666;
     margin: 10px;
-  }
-}
-
-@media screen and (max-width: 25em) {
-  .codrops-header {
-    font-size: 75%;
-  }
-  .codrops-icon span {
-    display: none;
   }
 }

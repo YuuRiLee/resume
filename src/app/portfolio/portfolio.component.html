@@ -3,7 +3,7 @@
     <h2>Develop</h2>
     <h3>Career</h3>
     <div class="grid">
-      <figure class="effect-sarah" *ngFor="let data of datas.develop.career">
+      <figure class="effect-sarah" *ngFor="let data of datas.develop.career" (click)="gotoDetail(data.id)">
         <div [ngStyle]="{
             'background-color': '#' + data.bgColor, 
             'background-image': 'url(' + data.url + ')'
@@ -13,13 +13,12 @@
           <div>
             <span *ngFor="let t of data.tag">{{t}}</span>
           </div>
-          <a href="#">View more</a>
         </figcaption>
       </figure>
     </div>
     <h3>Propject</h3>
     <div class="grid">
-      <figure class="effect-sarah" *ngFor="let data of datas.develop.project">
+      <figure class="effect-sarah" *ngFor="let data of datas.develop.project" (click)="gotoDetail(data.id)">
         <div [ngStyle]="{
             'background-color': '#' + data.bgColor, 
             'background-image': 'url(' + data.url + ')'
@@ -29,7 +28,6 @@
           <div>
             <span *ngFor="let t of data.tag">{{t}}</span>
           </div>
-          <a href="#">View more</a>
         </figcaption>
       </figure>
     </div>
@@ -38,7 +36,7 @@
     <h2>Design</h2>
     <h3>Propject</h3>
     <div class="grid">
-      <figure class="effect-sarah" *ngFor="let data of datas.design">
+      <figure class="effect-sarah" *ngFor="let data of datas.design" (click)="gotoDetail(data.id)">
         <div [ngStyle]="{
           'background-color': '#' + data.bgColor, 
           'background-image': 'url(' + data.url + ')'
@@ -48,7 +46,6 @@
           <div>
             <span *ngFor="let t of data.tag">{{t}}</span>
           </div>
-          <a href="#">View more</a>
         </figcaption>
       </figure>
     </div>

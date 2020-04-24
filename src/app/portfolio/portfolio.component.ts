@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient, HttpParams } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
+import { Router } from '@angular/router';
 
 export interface ItemsResponse {
   develop: any[];
@@ -13,17 +14,21 @@ export class PortfolioComponent implements OnInit {
   public datas;
 
   constructor(
-    private http: HttpClient
+    private http: HttpClient,
+    private router: Router
   ) { }
 
   ngOnInit(): void { // Make the HTTP request:
     this.http.get<ItemsResponse>('./assets/data/data.json', { observe: 'response' })
       .subscribe(
         resp => {
-          console.log('성공', resp.body);
           this.datas = resp.body;
         },
         err => { console.log('error' + err.error); }
       );
+  }
+
+  gotoDetail(id: string): void {
+    this.router.navigate(['/detail', id]);
   }
 }
