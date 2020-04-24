@@ -1,0 +1,660 @@
+{
+  "snowpalm": [
+    {
+      "title": "Snowpalm",
+      "date": "2019-01 ~ 2020-02",
+      "bgColor": "5EB08B",
+      "desc": "서비스 설정 페이지, 계정 설정 페이지, 회원가입 페이지, News 페이지, 아이디 찾기 및 비밀번호 초기화 페이지, 날짜를 ~일전과 같이 지정한 format으로 바꿔주는 timeAgo pipe를 개발했습니다.기존에 사용하던 Ionic3을 Ionic4로 버전 업그레이드하는 작업을 했습니다. 이후 앱 UI가 변경되어 변경된 UI의 맞게 적용하는 작업을 했습니다. QA Test를 통해 이슈들을 찾고, 발생한 이슈들을 처리했습니다.",
+      "contents": [
+        {
+          "multi": true,
+          "title": "Snowpalm 앱 작업 내용",
+          "details": [
+            {
+              "url": "./assets/imgs/detail/service_setting2.jpg",
+              "desc": "서비스 설정 페이지"
+            },
+            {
+              "url": "./assets/imgs/detail/account_setting.jpg",
+              "desc": "계정 설정 페이지"
+            },
+            {
+              "url": "./assets/imgs/detail/sign_up.jpg",
+              "desc": "회원가입 페이지"
+            },
+            {
+              "url": "./assets/imgs/detail/password_reset.jpg",
+              "desc": "아이디 찾기 및 비밀번호 초기화 페이지"
+            }
+          ]
+        }
+      ],
+      "tag": [
+        "Angular",
+        "RxJS",
+        "Typescript",
+        "Ionic 4",
+        "Ionic 3",
+        "SCSS",
+        "HTML5"
+      ]
+    }
+  ],
+  "snowpalm_pic": [
+    {
+      "title": "Snowpalm Pic 웹사이트 구글 애널리틱스 작업",
+      "date": "2020-02 ~ 2020-02",
+      "bgColor": "25272b",
+      "desc": "웹사이트에서 사용자가 어떤 행동을 가장 많이 취하는지 분석하기 위해 각 페이지마다 구글 애널리틱스를 추가하는 작업을 했습니다. 2명의 개발자와 분담하여 작업하였습니다. 사용자가 특정 이벤트를 발생시킬 때 마다 AngularFireAnalytics의 logEvent로 해당하는 이벤트의 key값과 분석하는 데 도움이 되는 데이터를 보내주는 방법을 사용했습니다.",
+      "contents": [
+        {
+          "title": "구글 애널리틱스 작업 내용",
+          "details": [
+            {
+              "url": "./assets/imgs/detail/analystics.png",
+              "desc": "작업 과정 예시"
+            }
+          ]
+        }
+      ],
+      "tag": [
+        "Angular",
+        "Google Analytics",
+        "Typescript"
+      ]
+    },
+    {
+      "title": "Snowpalm Pic 웹사이트",
+      "date": "2019-11 ~ 2019-11",
+      "bgColor": "25272b",
+      "desc": "QA Test에서 발생한 이슈들을 처리하고, 스페이스 관리 기능 개선, 초대장 전환 페이지, 멀티 파일 업로드와 스페이스 초대 수락 거절 기능과 같이 웹사이트의 기능을 향상하는 작업을 했습니다.",
+      "contents": [
+        {
+          "title": "Snowpalm Pic 웹사이트 작업 내용",
+          "details": [
+            {
+              "url": "./assets/imgs/detail/space_setting_web.jpg",
+              "desc": "스페이스 관리 기능 개선"
+            },
+            {
+              "url": "./assets/imgs/detail/multi_file_web.jpg",
+              "desc": "멀티 파일 업로드"
+            }
+          ]
+        }
+      ],
+      "tag": [
+        "Angular",
+        "RxJS",
+        "Typescript",
+        "SCSS",
+        "HTML5"
+      ]
+    },
+    {
+      "title": "Snowpalm Pic 앱",
+      "date": "2019-04 ~ 2019-12",
+      "bgColor": "25272b",
+      "desc": "회차별로 촬영하는 콘티들을 모아볼 수 있는 일촬표(일일촬영계획표) 페이지와 일촬표에서 사용하는 상세일정 및 콜타임을 개발하였습니다. 그리고 하단 탭을 터치했을 때 Bottom Sheet에 관한 애니메이션을 작업했습니다. 또한, QA Test를 통해 이슈들을 찾고, 발생한 이슈들을 처리했습니다",
+      "contents": [
+        {
+          "multi": true,
+          "title": "Snowpalm Pic 앱 작업 내용",
+          "details": [
+            {
+              "url": "./assets/imgs/detail/pic_location.jpg",
+              "desc": "일촬표 시간&장소 탭"
+            },
+            {
+              "url": "./assets/imgs/detail/pic_time.jpg",
+              "desc": "일촬표 진행 순서 탭"
+            },
+            {
+              "url": "./assets/imgs/detail/pic_calltime.jpg",
+              "desc": "일촬표 콜타임 탭"
+            },
+            {
+              "url": "./assets/imgs/detail/pic_notice.jpg",
+              "desc": "일촬표 공지사항 탭"
+            },
+            {
+              "url": "./assets/imgs/detail/pic_conti.jpg",
+              "desc": "일촬표 콘티 탭"
+            },
+            {
+              "url": "./assets/imgs/detail/pic_extra.jpg",
+              "desc": "일촬표 보조 출연 탭"
+            },
+            {
+              "url": "./assets/imgs/detail/pic_people.jpg",
+              "desc": "일촬표 현장 인원 탭"
+            },
+            {
+              "url": "./assets/imgs/detail/pic_memo.jpg",
+              "desc": "일촬표 팀별 메모 탭"
+            },
+            {
+              "url": "./assets/imgs/detail/calltime.jpg",
+              "desc": "상세일정 및 콜타임"
+            },
+            {
+              "url": "./assets/imgs/detail/bottom_sheet.jpg",
+              "desc": "bottom-sheet Animation"
+            }
+          ]
+        }
+      ],
+      "tag": [
+        "Ionic 3",
+        "Angular",
+        "RxJS",
+        "Typescript",
+        "SCSS",
+        "HTML5"
+      ]
+    }
+  ],
+  "snowpalm_animation": [
+    {
+      "title": "Snowpalm Animation",
+      "date": "2019-08 ~ 2020-02",
+      "bgColor": "25272b",
+      "desc": "Search bar, Parallax Header, Refresher, Bottom Sheet, Load More 등 컴포넌트들에 마이크로 인터랙션 애니메이션을 적용하는 작업을 했습니다. 사용자 Scroll에 따른 처리는 Ionic에서 제공하는 IonScrollEvent와 Hammer 이벤트를 이용했습니다. 애니메이션은 되도록 css로 처리하고, 복잡한 애니메이션의 경우 Renderer2를 이용해 작업했습니다.",
+      "contents": [
+        {
+          "multi": true,
+          "title": "Snowpalm Animation 작업 내용",
+          "details": [
+            {
+              "url": "./assets/imgs/detail/header-center-searchbar.gif",
+              "desc": "Title의 위치가 중앙인 Header Parallax와 Search Bar 애니메이션"
+            },
+            {
+              "url": "./assets/imgs/detail/header-searchbar2.gif",
+              "desc": "title의 위치가 죄측인 Header Parallax와 Search Bar 애니메이션"
+            },
+            {
+              "url": "./assets/imgs/detail/backdrop.gif",
+              "desc": "슬라이드에 따라 아래 페이지의 z값이 변하는 back drop 애니메이션"
+            },
+            {
+              "url": "./assets/imgs/detail/refresher.gif",
+              "desc": "Refresher 애니메이션과 새로고침 스크롤을 하는 정도에 따라 기울기가 변하는 애니메이션"
+            },
+            {
+              "url": "./assets/imgs/detail/card-click.gif",
+              "desc": "카드 클릭 시 페이지 전환 애니메이션"
+            },
+            {
+              "url": "./assets/imgs/detail/card_back.gif",
+              "desc": "카드 상세 화면에서 뒤로 가기 버튼 클릭 시 페이지 전환 애니메이션"
+            },
+            {
+              "url": "./assets/imgs/detail/filter-icon.gif",
+              "desc": "Icon Morphing 애니메이션"
+            },
+            {
+              "url": "./assets/imgs/detail/loadmore.gif",
+              "desc": "리스트 스크롤 애니메이션"
+            }
+          ]
+        }
+      ],
+      "tag": [
+        "Angular",
+        "RxJS",
+        "Typescript",
+        "Ionic 4",
+        "Ionic 3",
+        "Angular Animation",
+        "Hammer.js",
+        "SCSS",
+        "HTML5"
+      ]
+    }
+  ],
+  "word_way": [
+    {
+      "title": "글길 리팩토링 - 글적글적",
+      "date": "2019-09 ~ ",
+      "bgColor": "25272b",
+      "desc": "우리의 삶에서 단어는 많은 부분을 차지하고 있습니다. 하루에도 셀 수 없이 많은 단어를 내뱉고 쓰기를 반복합니다. 하지만 이러한 과정 속에서 자주 사용하지 않는 단어이거나, 많이 사용하는 단어라도 갑자기 기억이 나지 않는 경우 답답해하고는 합니다. 분명 이 단어가 어떤 의미를 가지고 있었는지 생각이 나지만 기존 사전의 경우, 의미로 검색 하면 원하는 결과를 찾을 수 없어 도움이 되지 못합니다. 글길은 이러한 문제점을 해결하기 위한 작은 생각의 전환에서 시작되었습니다. 단어로 의미를 찾는 사전이 아닌 의미로 단어를 찾는 사전 글길.기존에 진행했던 프로젝트인 글길을 react로 리팩토링 진행중입니다. 아토믹 디자인 패턴을 이용해 컴포넌트 개발했습니다. storybook을 이용해 컴포넌트를 독립된 환경에서 개발하고 각각의 상태 별로 변경되는 내용들을 쉽게 관리하도록 했습니다.",
+      "mp4": "https://www.youtube.com/embed/BcSEBIlDYyc",
+      "contents": [
+        {
+          "title": "Atoms",
+          "details": [
+            {
+              "url": "./assets/imgs/detail/atoms_button.png",
+              "desc": "Button 컴포넌트"
+            },
+            {
+              "url": "./assets/imgs/detail/atoms_iconButton.png",
+              "desc": "IconButton 컴포넌트"
+            },
+            {
+              "url": "./assets/imgs/detail/atoms_icon.png",
+              "desc": "Icon 컴포넌트 / Checkbox 컴포넌트"
+            },
+            {
+              "url": "./assets/imgs/detail/atoms_label.png",
+              "desc": "Label 컴포넌트"
+            },
+            {
+              "url": "./assets/imgs/detail/autosize.gif",
+              "desc": "AutosizeInput 컴포넌트"
+            },
+            {
+              "url": "./assets/imgs/detail/auto_button.gif",
+              "desc": "AutosizeButton 컴포넌트"
+            }
+          ]
+        },
+        {
+          "title": "Molecules",
+          "details": [
+            {
+              "url": "./assets/imgs/detail/mor_card.png",
+              "desc": "Card 컴포넌트"
+            }
+          ]
+        },
+        {
+          "title": "Organisms",
+          "details": [
+            {
+              "url": "./assets/imgs/detail/modal.png",
+              "desc": "Modal 컴포넌트"
+            }
+          ]
+        }
+      ],
+      "tag": [
+        "React",
+        "Redux",
+        "Typescript",
+        "Styled-components",
+        "Atomic Design",
+        "Storybook",
+        "SCSS",
+        "HTML5"
+      ]
+    }
+  ],
+  "daJeongBot": [
+    {
+      "title": "일상 속에 하루를 담다 - 다정봇",
+      "date": "2018-7 ~ 2018-10",
+      "bgColor": "f8e750",
+      "desc": "다정봇은 챗봇과의 대화를 통해 자연스럽게 다이어리를 기록할 수 있도록 도와주는 서비스입니다.<br>챗봇 캐릭터별로 말투와 캐릭터 디자인이 달라 원하는 챗봇과 친구가 되어 대화를 할 수 있습니다.<br><br>- UI 개발<br>- 튜토리얼<br>- 일정 사진 첨부 기능<br>- 챗봇 캐릭터 변경 기능<br>- 로그인 & 회원가입 기능<br>- 문장 전체를 입력할 필요없이 짧은 단어 입력을 통한 문장 자동완성 기능<br>- 챗봇과의 대화를 통해 이루어지는 번거러운 수정과 삭제 과정을 단순화해준 캘린더 기능<br>- 해당하는 날짜에 대한 일정을 보여주고 일정을 선택하면 해당하는 일정에 대한 상세 정보를 보여주는 추억 회상하기 기능<br><br>위와 같은 기능들을 개발하였습니다.",
+      "mp4": "https://www.youtube.com/embed/IB5ciGW4e84",
+      "contents": [
+        {
+          "multi": true,
+          "title": "Snowpalm 앱 작업 내용",
+          "details": [
+            {
+              "url": "./assets/imgs/detail/da_tutorial.png",
+              "desc": "튜토리얼 페이지"
+            },
+            {
+              "url": "./assets/imgs/detail/da_change_bot.png",
+              "desc": "챗봇 변경 기능"
+            },
+            {
+              "url": "./assets/imgs/detail/da_cal.jpg",
+              "desc": "캘린더 기능"
+            },
+            {
+              "url": "./assets/imgs/detail/da_auto.jpg",
+              "desc": "문장 자동완성 기능"
+            },
+            {
+              "url": "./assets/imgs/detail/da_img.jpg",
+              "desc": "일정 사진 첨부 기능"
+            },
+            {
+              "url": "./assets/imgs/detail/da_sch2.png",
+              "desc": "추억 회상하기 기능"
+            },
+            {
+              "url": "./assets/imgs/detail/da_signin.png",
+              "desc": "로그인"
+            },
+            {
+              "url": "./assets/imgs/detail/da_signup.png",
+              "desc": "회원 가입"
+            }
+          ]
+        }
+      ],
+      "tag": [
+        "Angular",
+        "RxJS",
+        "Typescript",
+        "Ionic 4",
+        "Ionic 3",
+        "SCSS",
+        "HTML5"
+      ]
+    }
+  ],
+  "ohDormitory": [
+    {
+      "title": "오늘 몇 시 점호야? - 오몇점 앱",
+      "date": "2018-6 ~ 2018-6 (Ios)<br>2017-9 ~ 2017-1 (Android)",
+      "bgColor": "f0cd57",
+      "desc": "기숙사생들을 위한 앱으로 기존에 종이로 전달되던 공지사항, 외박일지, 청소구역을 간편하게 앱으로 알림 받고 외박 인증도 QR코드로 할 수 있도록 만들었습니다.<br>오몇점에서 UI개발을 담당했습니다.Ios와 Android를 지원합니다. 교내 소프트웨어 대회 최우수상을 받았습니다.",
+      "contents": [
+        {
+          "multi": true,
+          "title": "Snowpalm 앱 작업 내용",
+          "details": [
+            {
+              "url": "./assets/imgs/detail/oh_list.png",
+              "desc": "튜토리얼 페이지"
+            },
+            {
+              "url": "./assets/imgs/detail/oh_out.png",
+              "desc": "챗봇 변경 기능"
+            },
+            {
+              "url": "./assets/imgs/detail/oh_clean.png",
+              "desc": "캘린더 기능"
+            },
+            {
+              "url": "./assets/imgs/detail/oh_camera.png",
+              "desc": "문장 자동완성 기능"
+            }
+          ]
+        }
+      ],
+      "tag": [
+        "Angular",
+        "RxJS",
+        "Typescript",
+        "Ionic 4",
+        "Ionic 3",
+        "SCSS",
+        "HTML5"
+      ]
+    },
+    {
+      "title": "오늘 몇 시 점호야? - 오몇점 (관리자 웹사이트)",
+      "date": "2018-5 ~ 2018-5",
+      "bgColor": "f0cd57",
+      "desc": "다정봇은 챗봇과의 대화를 통해 자연스럽게 다이어리를 기록할 수 있도록 도와주는 서비스입니다.<br>챗봇 캐릭터별로 말투와 캐릭터 디자인이 달라 원하는 챗봇과 친구가 되어 대화를 할 수 있습니다.<br><br>- UI 개발<br>- 튜토리얼<br>- 일정 사진 첨부 기능<br>- 챗봇 캐릭터 변경 기능<br>- 로그인 & 회원가입 기능<br>- 문장 전체를 입력할 필요없이 짧은 단어 입력을 통한 문장 자동완성 기능<br>- 챗봇과의 대화를 통해 이루어지는 번거러운 수정과 삭제 과정을 단순화해준 캘린더 기능<br>- 해당하는 날짜에 대한 일정을 보여주고 일정을 선택하면 해당하는 일정에 대한 상세 정보를 보여주는 추억 회상하기 기능<br><br>위와 같은 기능들을 개발하였습니다.",
+      "contents": [
+        {
+          "title": "Snowpalm 앱 작업 내용",
+          "details": [
+            {
+              "url": "./assets/imgs/detail/oh_web_info.png",
+              "desc": "튜토리얼 페이지"
+            },
+            {
+              "url": "./assets/imgs/detail/oh_web_list.png",
+              "desc": "챗봇 변경 기능"
+            },
+            {
+              "url": "./assets/imgs/detail/oh_web_clean.png",
+              "desc": "캘린더 기능"
+            },
+            {
+              "url": "./assets/imgs/detail/oh_web_out.png",
+              "desc": "문장 자동완성 기능"
+            }
+          ]
+        }
+      ],
+      "tag": [
+        "Angular",
+        "RxJS",
+        "Typescript",
+        "Ionic 4",
+        "Ionic 3",
+        "SCSS",
+        "HTML5"
+      ]
+    }
+  ],
+  "music": [
+    {
+      "title": "LP Music",
+      "date": "2020-4",
+      "bgColor": "71b9e4",
+      "desc": "스케치에서 Atomic Design 기법을 이용해 컴포넌트를 심볼화하여 작업한 후 Principle을 이용해 프로토타입을 만들었습니다.",
+      "contents": [
+        {
+          "multi": true,
+          "title": "디자인 작업 내용",
+          "details": [
+            {
+              "url": "./assets/imgs/design_detail/music_list.png",
+              "desc": "음악 리스트"
+            },
+            {
+              "url": "./assets/imgs/music_detail.jpg",
+              "desc": "재생 중인 곡"
+            },
+            {
+              "url": "./assets/imgs/design_detail/music.gif",
+              "desc": "다음 곡 재생 프로토타입"
+            }
+          ]
+        }
+      ],
+      "tag": [
+        "Sketch",
+        "Principle",
+        "UI/UX",
+        "prototype"
+      ]
+    }
+  ],
+  "neumorphism": [
+    {
+      "title": "Neumorphism",
+      "date": "2020-2",
+      "bgColor": "6f9efa",
+      "desc": "최근 플랫/머티리얼 디자인의 대안으로 떠오른 뉴모피즘 스타일로 작업을 했습니다.<br>뉴모피즘 스타일은 제품을 부드럽고 동글동글한 인상을 준다는 장점이 있습니다.",
+      "contents": [
+        {
+          "multi": true,
+          "title": "디자인 작업 내용",
+          "details": [
+            {
+              "url": "./assets/imgs/design_detail/neu.gif",
+              "desc": "상대방이 대화 작성 중일 경우 프로토타입"
+            },
+            {
+              "url": "./assets/imgs/neu_작성완료.jpg",
+              "desc": "채팅 화면"
+            }
+          ]
+        }
+      ],
+      "tag": [
+        "Sketch",
+        "Principle",
+        "UI/UX",
+        "prototype"
+      ]
+    }
+  ],
+  "reviewer": [
+    {
+      "title": "Reviewer",
+      "date": "2020-4",
+      "bgColor": "70bea3",
+      "desc": "읽은 도서들을 리뷰할 수 있는 앱을 디자인했습니다.<br>- 메인 화면: 해당하는 날짜에 사용자가 등록한 리뷰들이 나타납니다.<br>- 캘린더 아이콘 클릭시 화면: 메인 화면에서 도서명 우측 상단에 있는 캘린더 아이콘 클릭시 해당 하는 도서를 읽은 다른 날들을 알 수 있습니다.<br>- 일반 검색 화면: 도서명, 작가명, 출판사와 같은 정보들을 검색할 수 있습니다. <br>- 해시태그 검색 화면: 해시태그를 클릭하면 클릭한 해시태그 값으로 검색이 됩니다.",
+      "contents": [
+        {
+          "multi": true,
+          "title": "디자인 작업 내용",
+          "details": [
+            {
+              "url": "./assets/imgs/book_메인.jpg",
+              "desc": "메인 화면"
+            },
+            {
+              "url": "./assets/imgs/design_detail/book_메인화면클릭.jpg",
+              "desc": "캘린더 아이콘을 클릭한 도서를 읽은<br>날짜들이 노란색으로 변경"
+            },
+            {
+              "url": "./assets/imgs/design_detail/book_일반 검색.jpg",
+              "desc": "일반 검색 화면"
+            },
+            {
+              "url": "./assets/imgs/design_detail/book_해시태그클릭.jpg",
+              "desc": "해시태그 검색 화면"
+            }
+          ]
+        }
+      ],
+      "tag": [
+        "Sketch",
+        "UI/UX"
+      ]
+    }
+  ],
+  "spider_man": [
+    {
+      "title": "SPIDER-MAN Far From Home",
+      "date": "2019-6",
+      "bgColor": "426aa5",
+      "desc": "Create artwork inspired by Spider-Man™: Far From Home에 스파이더맨 Far From Home 포스터를 그려 참가했습니다.<br><br><a class='detail-link' style='color:#426aa5;' href='https://www.talenthouse.com/i/1642/submission/369772/8a18bcfa'>대회 안내</a> 링크입니다.<br><a class='detail-link' style='color:#426aa5;' href='https://www.talenthouse.com/i/1642/submission/369772/8a18bcfa'>등록한 게시물</a> 링크입니다.",
+      "contents": [
+        {
+          "title": "디자인 작업 내용",
+          "details": [
+            {
+              "url": "./assets/imgs/spiderman.jpg",
+              "desc": "포스터"
+            }
+          ]
+        }
+      ],
+      "tag": [
+        "Adobe Illustrator"
+      ]
+    }
+  ],
+  "walk": [
+    {
+      "title": "밤 산책",
+      "date": "2019-5",
+      "bgColor": "6964b6",
+      "desc": "밤 산책이라는 주제로 작업한 일러스트입니다.<br>어두운 배경과 강조되는 채도가 높은 색상을 넣어 어두운 느낌을 감소시키고자 했습니다.",
+      "contents": [
+        {
+          "title": "디자인 작업 내용",
+          "details": [
+            {
+              "url": "./assets/imgs/walk.jpg",
+              "desc": "달려"
+            }
+          ]
+        }
+      ],
+      "tag": [
+        "Adobe Illustrator"
+      ]
+    }
+  ],
+  "pokemon": [
+    {
+      "title": "잠만보와의 하루",
+      "date": "2019-5",
+      "bgColor": "003366",
+      "desc": "좋아하는 캐릭터와의 만남이라는 주제로 작업했습니다. ",
+      "contents": [
+        {
+          "title": "디자인 작업 내용",
+          "details": [
+            {
+              "url": "./assets/imgs/poketmon2.jpg",
+              "desc": "무엇이든 할 수 있어"
+            },
+            {
+              "url": "./assets/imgs/poketmon1.jpg",
+              "desc": "우린"
+            }
+          ]
+        }
+      ],
+      "tag": [
+        "Adobe Illustrator"
+      ]
+    }
+  ],
+  "waiting": [
+    {
+      "title": "기다림",
+      "date": "2019-5",
+      "bgColor": "333366",
+      "desc": "기다림이라는 주제로 작업한 일러스트입니다. ",
+      "contents": [
+        {
+          "title": "디자인 작업 내용",
+          "details": [
+            {
+              "url": "./assets/imgs/people.jpg",
+              "desc": "항상 나는 기다리고 있어"
+            }
+          ]
+        }
+      ],
+      "tag": [
+        "Adobe Illustrator"
+      ]
+    }
+  ],
+  "panel": [
+    {
+      "title": "교내 졸업 전시회 패널",
+      "date": "2018-6",
+      "bgColor": "406bb4",
+      "desc": "교내 졸업 전시회에서 사용한 작품 홍보 패널과 작품 패널을 디자인했습니다.",
+      "contents": [
+        {
+          "title": "홍보 패널",
+          "details": [
+            {
+              "url": "./assets/imgs/panal_wordway.png",
+              "desc": "글길 홍보 패널"
+            },
+            {
+              "url": "./assets/imgs/design_detail/panal_oh.png",
+              "desc": "오몇점 홍보 패널"
+            },
+            {
+              "url": "./assets/imgs/design_detail/panal_35.png",
+              "desc": "3-5반 웹사이트 홍보 패널"
+            }
+          ]
+        },
+        {
+          "title": "작품 패널",
+          "details": [
+            {
+              "url": "./assets/imgs/design_detail/panal2_wordway.png",
+              "desc": "글길 작품 패널"
+            },
+            {
+              "url": "./assets/imgs/design_detail/panal2_oh.png",
+              "desc": "오몇점 작품 패널"
+            },
+            {
+              "url": "./assets/imgs/design_detail/panal2_35.png",
+              "desc": "3-5반 웹사이트 작품 패널"
+            }
+          ]
+        }
+      ],
+      "tag": [
+        "Adobe Photoshop"
+      ]
+    }
+  ]
+}
