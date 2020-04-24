@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { MainComponent } from './main/main.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { HttpClientModule } from '@angular/common/http';
+import { DetailComponent } from './detail/detail.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { PipesModule } from './pipes/pipes.module';
 
@@ -14,6 +15,7 @@ import { PipesModule } from './pipes/pipes.module';
     AppComponent,
     MainComponent,
     PortfolioComponent,
+    DetailComponent,
     NavbarComponent,
   ],
   imports: [
