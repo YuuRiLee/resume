@@ -17,9 +17,8 @@ export class NavbarComponent implements OnInit {
   ngOnInit(): void {
     this.router.events.subscribe((event: RouterEvent) => {
       if (!this.backFlag) {
-        this.backFlag = event.url && event.url.replace('/', '').length ? true : false;
+        this.backFlag = event.url && event.url.indexOf('detail') !== -1 ? true : false;
       }
-      // console.log(event.url, this.backFlag);
     });
   }
 

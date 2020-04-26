@@ -16,17 +16,21 @@ header {
       img {
         width: 32px;
       }
+      cursor: pointer;
     }
     .menu-wrapp {
       text-align: right;
       width: 100%;
       align-self: center;
-      div {
-        padding: 0 20px;
+      .resume {
+        padding-right: 1.5rem;  
+      }
+      h1 {
         display: inline-block;
         font-size: 1.5em;
-        font-weight: 700;
         outline: none;
+        margin: 0;
+        cursor: pointer;
       }
     }
   }
