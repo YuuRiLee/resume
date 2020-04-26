@@ -1,0 +1,88 @@
+.content {
+  max-width: 62rem;
+  margin: 0 auto;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  p {
+    margin: 0;
+  }
+  ul {
+    padding: 0;
+    list-style: none;
+    img {
+      width: 16px;
+      margin-right: 0.5rem;
+    }
+  }
+  hr {
+    background-color: #d2d2d2;
+    border: 0;
+    height: 1px;
+  }
+  .section-end {
+    margin: 3rem 0;
+  }
+  .info {
+    margin: 2rem 0;
+    li {
+      display: flex;
+      align-items: center;
+      img {
+        width: 16px;
+        margin-right: 0.5rem;
+      }
+    }
+  }
+  .stack {
+    li {
+      display: grid;
+      grid-template-columns: 8rem auto;
+      .type {
+        font-weight: 700;
+        align-self: center;
+        text-align: center;
+      }
+    }
+  }
+  .career {
+    .company-info {
+      margin: 2rem 0;
+      .position {
+        margin-bottom: 1rem;
+      }
+    }
+    .project-list {
+      margin: 2rem 0;
+    }
+    .sub-project {
+      padding-left: 2rem;
+      list-style: disc;
+    }
+  }
+
+  .stack-list {
+    padding: 0.7rem 0;
+    span {
+      border-radius: 40px;
+      padding: 4px 12px;
+      margin: 5px;
+      font-size: 0.8em;
+      width: fit-content;
+      display: inline-block;
+      border: 1px solid #d2d2d2;
+    }
+  }
+  .progress-wrapp {
+    align-items: center;
+    position: relative;
+    margin: 0.7rem 0;
+    h4 {
+      margin: 0.17rem 0 0 1rem;
+      float: right;
+      color: #979a9f;
+    }
+  }
+}

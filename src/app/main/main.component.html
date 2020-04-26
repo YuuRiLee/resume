@@ -1,1 +1,110 @@
-<p>main works!</p>
+<section *ngIf="data" class="content">
+  <h1>{{data.name}}</h1>
+  <div class="grid">
+    <ul class="info">
+      <li>
+        <img src="assets/svgs/phone.svg" /> - {{data.contact.tel}}
+      </li>
+      <li>
+        <img src="assets/svgs/mail.svg" /> - &nbsp;<a [href]="'mailto:' + data.contact.email">{{data.contact.email}}</a>
+      </li>
+      <li>
+        <img src="assets/svgs/github-sign.svg" /> - &nbsp;<a [href]="data.contact.github">{{data.contact.github}}</a>
+      </li>
+    </ul>
+    <p class="desc" [innerHtml]="data.about|newLine"></p>
+    <hr class="section-end">
+  </div>
+  <section class="stack">
+    <h2>기술 스택</h2>
+    <ul>
+      <li>
+        <div class="type">Framework<br>&<br>Library</div>
+        <div class="stack-list">
+          <span *ngFor="let framework of data.framework">{{framework}}</span>
+        </div>
+      </li>
+      <hr>
+      <li>
+        <div class="type">Language</div>
+        <div class="stack-list">
+          <span *ngFor="let language of data.language">{{language}}</span>
+        </div>
+      </li>
+      <hr>
+      <li>
+        <div class="type">Editor</div>
+        <div class="stack-list">
+          <span *ngFor="let editor of data.editor">{{editor}}</span>
+        </div>
+      </li>
+      <hr>
+      <li>
+        <div class="type">UI/UX</div>
+        <div class="stack-list">
+          <span *ngFor="let ui of data.ui">{{ui}}</span>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <hr class="section-end">
+  <section *ngFor="let career of data.career" class="career">
+    <h2>경력 사항</h2>
+    <div class="company-info">
+      <div class="progress-wrapp">
+        <h4 [innerHtml]="career.date|newLine"></h4>
+        <h3>{{career.name}}</h3>
+      </div>
+      <p class="position">{{career.position}}</p>
+      <p [innerHtml]="career.desc"></p>
+    </div>
+    <ul class="sub-project">
+      <li *ngFor="let project of career.project" class="project-list">
+        <div class="progress-wrapp">
+          <h4>{{project.date}}</h4>
+          <h3>{{project.title}}</h3>
+        </div>
+        <p [innerHtml]="project.desc|newLine"></p>
+        <p class="stack-list">
+          <span *ngFor="let stack of project.stack">{{stack}}</span>
+        </p>
+      </li>
+    </ul>
+  </section>
+  <hr class="section-end">
+  <section class="career">
+    <h2>프로젝트</h2>
+    <ul>
+      <li *ngFor="let project of data.project" class="project-list">
+        <div class="progress-wrapp">
+          <h4>{{project.date}}</h4>
+          <h3>{{project.title}}</h3>
+        </div>
+        <p [innerHtml]="project.desc|newLine"></p>
+        <ul>
+          <li *ngFor="let link of project.link">
+            <!-- <img src="assets/svgs/phone.svg" /> -->
+            <a [href]="link.url">{{link.url}}</a>
+          </li>
+        </ul>
+        <p class="stack-list">
+          <span *ngFor="let stack of project.stack">{{stack}}</span>
+        </p>
+      </li>
+    </ul>
+  </section>
+  <hr class="section-end">
+  <section class="career">
+    <h2>수상</h2>
+    <ul>
+      <li *ngFor="let prize of data.prize" class="project-list">
+        <div class="progress-wrapp">
+          <h4>{{prize.date}}</h4>
+          <h3>{{prize.title}}</h3>
+        </div>
+        <p [innerHtml]="prize.desc|newLine"></p>
+        <a [href]="prize.link">{{prize.link}}</a>
+      </li>
+    </ul>
+  </section>
+</section>
