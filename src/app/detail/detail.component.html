@@ -1,37 +1,35 @@
-<section *ngIf="datas">
-  <div class="content">
-    <div *ngFor="let data of datas">
-      <h2>{{data.title}}</h2>
-      <h3 [innerHtml]="data.date|newLine"></h3>
-      <div class="grid" [innerHtml]="data.desc|newLine"></div>
-      <div class="embed-youtube" *ngIf="data.mp4">
-        <iframe width="560" height="315" [src]="data.mp4 | insertUrl" frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<section *ngIf="datas" div class="content">
+  <div *ngFor="let data of datas">
+    <h1>{{data.title}}</h1>
+    <h3 [innerHtml]="data.date|newLine"></h3>
+    <div class="desc" [innerHtml]="data.desc|newLine"></div>
+    <div class="embed-youtube" *ngIf="data.mp4">
+      <iframe width="560" height="315" [src]="data.mp4 | insertUrl" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div *ngFor="let content of data.contents">
+      <h3>{{content.title}}</h3>
+      <div class="grid">
+        <ng-template [ngIf]="content.multi" [ngIfElse]="single">
+          <figure *ngFor="let detail of content.details">
+            <img [src]="detail.url" />
+            <figcaption>
+              <span [innerHtml]="detail.desc|newLine"></span>
+            </figcaption>
+          </figure>
+        </ng-template>
+        <ng-template #single>
+          <figure *ngFor="let detail of content.details" class="single">
+            <img [src]="detail.url" />
+            <figcaption>
+              <span [innerHtml]="detail.desc|newLine"></span>
+            </figcaption>
+          </figure>
+        </ng-template>
       </div>
-      <div *ngFor="let content of data.contents">
-        <h3>{{content.title}}</h3>
-        <div class="grid">
-          <ng-template [ngIf]="content.multi" [ngIfElse]="single">
-            <figure *ngFor="let detail of content.details">
-              <img [src]="detail.url" />
-              <figcaption>
-                <span [innerHtml]="detail.desc|newLine"></span>
-              </figcaption>
-            </figure>
-          </ng-template>
-          <ng-template #single>
-            <figure *ngFor="let detail of content.details" class="single">
-              <img [src]="detail.url" />
-              <figcaption>
-                <span [innerHtml]="detail.desc|newLine"></span>
-              </figcaption>
-            </figure>
-          </ng-template>
-        </div>
-      </div>
-      <div class="tag-wrapp">
-        <span *ngFor="let detail of data.tag" [ngStyle]="{'border': '1px solid #' + data.bgColor}">{{detail}}</span>
-      </div>
+    </div>
+    <div class="tag-wrapp">
+      <span *ngFor="let detail of data.tag" [ngStyle]="{'border': '1px solid #' + data.bgColor}">{{detail}}</span>
     </div>
   </div>
 </section>
