@@ -5,6 +5,7 @@
   list-style: none;
   text-align: center;
   display: inline-block;
+  width: 100%;
 }
 
 /* Common style */
@@ -12,13 +13,12 @@
   position: relative;
   float: left;
   overflow: hidden;
-  margin: 10px 1%;
-  min-width: 320px;
-  max-width: 480px;
-  min-height: 360px;
+  margin: 0.6rem 1%;
+  max-width: 30rem;
+  height: 22rem;
   width: 48%;
   background: #000000;
-  border-radius: 12px;
+  border-radius: 0.7rem;
   cursor: pointer;
 }
 
@@ -27,8 +27,6 @@
   display: block;
   min-height: 100%;
   opacity: 0.8;
-
-  height: 360px;
   background-size: cover;
   background-position: center;
   background-size: contain;
@@ -37,10 +35,19 @@
 
 .grid figure figcaption {
   padding: 2em;
-  color: #fff;
   font-size: 1.3em;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+}
+
+.grid figure figcaption {
+  h3,
+  span {
+    color: #fff !important;
+  }
+  div {
+    max-height: 9.5rem;
+  }
 }
 
 .grid figure figcaption,
@@ -62,16 +69,17 @@
   opacity: 0;
 }
 
-.grid figure h2 {
+.grid figure h3 {
   word-spacing: -0.15em;
   font-weight: 300;
+  width: calc(100% - 4rem);
 }
 
-.grid figure h2 span {
-  font-weight: 800;
+.grid figure h3 span {
+  font-weight: 600;
 }
 
-.grid figure h2,
+.grid figure h3,
 .grid figure div {
   margin: 0;
 }
@@ -79,6 +87,7 @@
 .grid figure div {
   letter-spacing: 1px;
   float: left;
+  overflow: hidden;
   span {
     border: 1px solid white;
     border-radius: 40px;
@@ -98,7 +107,7 @@ figure.effect-marley figcaption {
   text-align: right;
 }
 
-figure.effect-marley h2,
+figure.effect-marley h3,
 figure.effect-marley p {
   position: absolute;
   right: 30px;
@@ -113,7 +122,7 @@ figure.effect-marley p {
   transform: translate3d(0, 100%, 0);
 }
 
-figure.effect-marley h2 {
+figure.effect-marley h3 {
   top: 30px;
   -webkit-transition: -webkit-transform 0.35s;
   transition: transform 0.35s;
@@ -121,12 +130,12 @@ figure.effect-marley h2 {
   transform: translate3d(0, 20px, 0);
 }
 
-figure.effect-marley:hover h2 {
+figure.effect-marley:hover h3 {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
 
-figure.effect-marley h2::after {
+figure.effect-marley h3::after {
   position: absolute;
   top: 100%;
   left: 0;
@@ -138,14 +147,14 @@ figure.effect-marley h2::after {
   transform: translate3d(0, 40px, 0);
 }
 
-figure.effect-marley h2::after,
+figure.effect-marley h3::after,
 figure.effect-marley p {
   opacity: 0;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
 }
 
-figure.effect-marley:hover h2::after,
+figure.effect-marley:hover h3::after,
 figure.effect-marley:hover p {
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0);
@@ -178,13 +187,13 @@ figure.effect-sarah figcaption {
   text-align: left;
 }
 
-figure.effect-sarah h2 {
+figure.effect-sarah h3 {
   position: relative;
   overflow: hidden;
   padding: 0.5em 0;
 }
 
-figure.effect-sarah h2::after {
+figure.effect-sarah h3::after {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -198,7 +207,7 @@ figure.effect-sarah h2::after {
   transform: translate3d(-100%, 0, 0);
 }
 
-figure.effect-sarah:hover h2::after {
+figure.effect-sarah:hover h3::after {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
@@ -218,42 +227,8 @@ figure.effect-sarah:hover div {
   transform: translate3d(0, 0, 0);
 }
 
-@media screen and (max-width: 50em) {
-  .content {
-    padding: 0 10px;
-    text-align: center;
-  }
-  .grid figure {
-    display: inline-block;
-    float: none;
-    margin: 10px auto;
-    width: 100%;
-  }
-}
-*,
-*:after,
-*:before {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-section {
-  padding: 1em;
-  text-align: center;
-}
-
 .content {
-  margin: 0 auto;
-  max-width: 1000px;
-  text-align: left;
-
-  > h2 {
-    font-size: 3em;
-    text-align: left;
-  }
-  > h3 {
-    font-size: 2em;
-    color: #666666;
-    margin: 10px;
+  > h1 {
+    font-size: 1.7rem;
   }
 }

@@ -1,7 +1,7 @@
 <section *ngIf="datas">
   <div class="content">
-    <h2>Develop</h2>
-    <h3>Career</h3>
+    <h1>Develop</h1>
+    <h2>Career</h2>
     <div class="grid">
       <figure class="effect-sarah" *ngFor="let data of datas.develop.career" (click)="gotoDetail(data.id)">
         <div [ngStyle]="{
@@ -9,14 +9,14 @@
             'background-image': 'url(' + data.url + ')'
           }" class="background"></div>
         <figcaption>
-          <h2>{{data.title}}<span>{{data.emphasisTitle}}</span></h2>
+          <h3>{{data.title}}<span>{{data.emphasisTitle}}</span></h3>
           <div>
             <span *ngFor="let t of data.tag">{{t}}</span>
           </div>
         </figcaption>
       </figure>
     </div>
-    <h3>Propject</h3>
+    <h2>Propject</h2>
     <div class="grid">
       <figure class="effect-sarah" *ngFor="let data of datas.develop.project" (click)="gotoDetail(data.id)">
         <div [ngStyle]="{
@@ -24,7 +24,7 @@
             'background-image': 'url(' + data.url + ')'
           }" class="background"></div>
         <figcaption>
-          <h2>{{data.title}}<span>{{data.emphasisTitle}}</span></h2>
+          <h3>{{data.title}}<span>{{data.emphasisTitle}}</span></h3>
           <div>
             <span *ngFor="let t of data.tag">{{t}}</span>
           </div>
@@ -33,8 +33,8 @@
     </div>
   </div>
   <div class="content">
-    <h2>Design</h2>
-    <h3>Propject</h3>
+    <h1>Design</h1>
+    <h2>Propject</h2>
     <div class="grid">
       <figure class="effect-sarah" *ngFor="let data of datas.design" (click)="gotoDetail(data.id)">
         <div [ngStyle]="{
@@ -42,7 +42,7 @@
           'background-image': 'url(' + data.url + ')'
         }" class="background"></div>
         <figcaption>
-          <h2>{{data.title}}<span>{{data.emphasisTitle}}</span></h2>
+          <h3>{{data.title}}<span>{{data.emphasisTitle}}</span></h3>
           <div>
             <span *ngFor="let t of data.tag">{{t}}</span>
           </div>
