@@ -6,10 +6,10 @@ header {
   left: 0;
   background-color: white;
   box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.3);
-  > div {
+  .header-wrapp {
     display: flex;
     position: relative;
-    padding: 20px;
+    padding: 1rem 2rem 1rem 1rem;
     button {
       position: absolute;
       align-self: center;
@@ -23,7 +23,7 @@ header {
       width: 100%;
       align-self: center;
       .resume {
-        padding-right: 1.5rem;  
+        padding-right: 1.5rem;
       }
       h1 {
         display: inline-block;
@@ -31,7 +31,7 @@ header {
         outline: none;
         margin: 0;
         cursor: pointer;
-        &:hover{
+        &:hover {
           color: #2196f3;
         }
       }
