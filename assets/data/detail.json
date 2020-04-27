@@ -1,10 +1,69 @@
 {
+  "snowpalm_animation": [
+    {
+      "title": "Snowpalm Animation",
+      "date": "2019-08 ~ 2020-02",
+      "bgColor": "25272b",
+      "desc": "사용자 Scroll에 따른 처리는 Ionic에서 제공하는 IonScrollEvent와 제스쳐 라이브러리인 Hammer.js와 RxJS를 이용했습니다.<br>애니메이션은 되도록 css로 처리하고, 복잡한 애니메이션의 경우 Renderer2를 이용해 DOM과 관련한 작업을 했습니다.<br>아래와 같은 인터랙션 애니메이션을 컴포넌트에 적용했습니다.<br>- Search bar 애니메이션<br>- Parallax Header 애니메이션<br>- Refresher 애니메이션<br>- Bottom Sheet 애니메이션 등",
+      "contents": [
+        {
+          "multi": true,
+          "title": "Snowpalm Animation 작업 내용",
+          "details": [
+            {
+              "url": "./assets/imgs/detail/header-center-searchbar.gif",
+              "desc": "Title의 위치가 중앙인 Header Parallax와<br>Search Bar 애니메이션"
+            },
+            {
+              "url": "./assets/imgs/detail/header-searchbar2.gif",
+              "desc": "title의 위치가 죄측인 Header Parallax와<br>Search Bar 애니메이션"
+            },
+            {
+              "url": "./assets/imgs/detail/backdrop.gif",
+              "desc": "슬라이드에 따라 아래 페이지의 z값이 변하는<br>back drop 애니메이션"
+            },
+            {
+              "url": "./assets/imgs/detail/refresher.gif",
+              "desc": "Refresher 애니메이션과 새로고침 스크롤을 하는<br>정도에 따라 기울기가 변하는 애니메이션"
+            },
+            {
+              "url": "./assets/imgs/detail/card-click.gif",
+              "desc": "카드 클릭 시 페이지 전환 애니메이션"
+            },
+            {
+              "url": "./assets/imgs/detail/card_back.gif",
+              "desc": "카드 상세 화면에서 뒤로 가기 버튼<br>클릭 시 페이지 전환 애니메이션"
+            },
+            {
+              "url": "./assets/imgs/detail/filter-icon.gif",
+              "desc": "Icon Morphing 애니메이션"
+            },
+            {
+              "url": "./assets/imgs/detail/loadmore.gif",
+              "desc": "리스트 스크롤 애니메이션"
+            }
+          ]
+        }
+      ],
+      "tag": [
+        "Angular",
+        "RxJS",
+        "Typescript",
+        "Ionic 4",
+        "Ionic 3",
+        "Angular Animation",
+        "Hammer.js",
+        "SCSS",
+        "HTML5"
+      ]
+    }
+  ],
   "snowpalm": [
     {
-      "title": "Snowpalm",
+      "title": "Snowpalm 앱",
       "date": "2019-01 ~ 2020-02",
       "bgColor": "5EB08B",
-      "desc": "서비스 설정 페이지, 계정 설정 페이지, 회원가입 페이지, News 페이지, 아이디 찾기 및 비밀번호 초기화 페이지, 날짜를 ~일전과 같이 지정한 format으로 바꿔주는 timeAgo pipe를 개발했습니다.기존에 사용하던 Ionic3을 Ionic4로 버전 업그레이드하는 작업을 했습니다. 이후 앱 UI가 변경되어 변경된 UI의 맞게 적용하는 작업을 했습니다. QA Test를 통해 이슈들을 찾고, 발생한 이슈들을 처리했습니다.",
+      "desc": "아래와 같은 페이지를 작업했습니다.<br>- 서비스 설정 페이지<br>- 계정 설정 페이지<br>- 회원가입 페이지<br>- News 페이지<br> - 아이디 찾기 및 비밀번호 초기화 페이지<br>날짜를 ~일전과 같이 지정한 format으로 바꿔주는 timeAgo pipe 개발했습니다.<br>기존에 사용하던 Ionic3을 Ionic4로 버전 업그레이드하는 작업을 했습니다.<br>이후 앱 UI가 변경되어 변경된 UI의 맞게 적용하는 작업을 했습니다.<br>QA Test를 통해 이슈들을 찾고, 발생한 이슈들을 처리했습니다.",
       "contents": [
         {
           "multi": true,
@@ -45,7 +104,7 @@
       "title": "Snowpalm Pic 웹사이트 구글 애널리틱스 작업",
       "date": "2020-02 ~ 2020-02",
       "bgColor": "25272b",
-      "desc": "웹사이트에서 사용자가 어떤 행동을 가장 많이 취하는지 분석하기 위해 각 페이지마다 구글 애널리틱스를 추가하는 작업을 했습니다. 2명의 개발자와 분담하여 작업하였습니다. 사용자가 특정 이벤트를 발생시킬 때 마다 AngularFireAnalytics의 logEvent로 해당하는 이벤트의 key값과 분석하는 데 도움이 되는 데이터를 보내주는 방법을 사용했습니다.",
+      "desc": "웹사이트에서 사용자가 어떤 행동을 가장 많이 취하는지 분석하기 위해 각 페이지마다 구글 애널리틱스를 추가하는 작업을 했습니다.<br>사용자가 특정 이벤트를 발생시킬 때 마다 AngularFireAnalytics의 logEvent로 해당하는 이벤트의 key값과 분석하는데 도움이 되는 데이터를 보내주는 방법을 사용했습니다.<br>2명의 개발자와 분담하여 작업하였습니다.",
       "contents": [
         {
           "title": "구글 애널리틱스 작업 내용",
@@ -67,7 +126,7 @@
       "title": "Snowpalm Pic 웹사이트",
       "date": "2019-11 ~ 2019-11",
       "bgColor": "25272b",
-      "desc": "QA Test에서 발생한 이슈들을 처리하고, 스페이스 관리 기능 개선, 초대장 전환 페이지, 멀티 파일 업로드와 스페이스 초대 수락 거절 기능과 같이 웹사이트의 기능을 향상하는 작업을 했습니다.",
+      "desc": "아래와 같이 웹사이트의 기능을 추가하는 작업을 했습니다.<br>- 스페이스 관리 기능 개선<br>- 초대장 전환 페이지<br>- 멀티 파일 업로드와 스페이스 초대 수락 거절<br>QA Test를 통해 이슈들을 찾고, 발생한 이슈들을 처리했습니다.",
       "contents": [
         {
           "title": "Snowpalm Pic 웹사이트 작업 내용",
@@ -95,7 +154,7 @@
       "title": "Snowpalm Pic 앱",
       "date": "2019-04 ~ 2019-12",
       "bgColor": "25272b",
-      "desc": "회차별로 촬영하는 콘티들을 모아볼 수 있는 일촬표(일일촬영계획표) 페이지와 일촬표에서 사용하는 상세일정 및 콜타임을 개발하였습니다. 그리고 하단 탭을 터치했을 때 Bottom Sheet에 관한 애니메이션을 작업했습니다. 또한, QA Test를 통해 이슈들을 찾고, 발생한 이슈들을 처리했습니다",
+      "desc": "회차별로 촬영하는 콘티들을 모아볼 수 있는 일촬표(일일촬영계획표) 페이지 개발하였습니다.<br>일촬표에서 사용하는 상세일정 및 콜타임을 개발하였습니다.<br>하단 탭을 터치했을 때 Bottom Sheet에 관한 애니메이션을 작업했습니다.<br>QA Test를 통해 이슈들을 찾고, 발생한 이슈들을 처리했습니다.",
       "contents": [
         {
           "multi": true,
@@ -154,72 +213,12 @@
       ]
     }
   ],
-  "snowpalm_animation": [
-    {
-      "title": "Snowpalm Animation",
-      "date": "2019-08 ~ 2020-02",
-      "bgColor": "25272b",
-      "desc": "Search bar, Parallax Header, Refresher, Bottom Sheet, Load More 등 컴포넌트들에 마이크로 인터랙션 애니메이션을 적용하는 작업을 했습니다. 사용자 Scroll에 따른 처리는 Ionic에서 제공하는 IonScrollEvent와 Hammer 이벤트를 이용했습니다. 애니메이션은 되도록 css로 처리하고, 복잡한 애니메이션의 경우 Renderer2를 이용해 작업했습니다.",
-      "contents": [
-        {
-          "multi": true,
-          "title": "Snowpalm Animation 작업 내용",
-          "details": [
-            {
-              "url": "./assets/imgs/detail/header-center-searchbar.gif",
-              "desc": "Title의 위치가 중앙인 Header Parallax와 Search Bar 애니메이션"
-            },
-            {
-              "url": "./assets/imgs/detail/header-searchbar2.gif",
-              "desc": "title의 위치가 죄측인 Header Parallax와 Search Bar 애니메이션"
-            },
-            {
-              "url": "./assets/imgs/detail/backdrop.gif",
-              "desc": "슬라이드에 따라 아래 페이지의 z값이 변하는 back drop 애니메이션"
-            },
-            {
-              "url": "./assets/imgs/detail/refresher.gif",
-              "desc": "Refresher 애니메이션과 새로고침 스크롤을 하는 정도에 따라 기울기가 변하는 애니메이션"
-            },
-            {
-              "url": "./assets/imgs/detail/card-click.gif",
-              "desc": "카드 클릭 시 페이지 전환 애니메이션"
-            },
-            {
-              "url": "./assets/imgs/detail/card_back.gif",
-              "desc": "카드 상세 화면에서 뒤로 가기 버튼 클릭 시 페이지 전환 애니메이션"
-            },
-            {
-              "url": "./assets/imgs/detail/filter-icon.gif",
-              "desc": "Icon Morphing 애니메이션"
-            },
-            {
-              "url": "./assets/imgs/detail/loadmore.gif",
-              "desc": "리스트 스크롤 애니메이션"
-            }
-          ]
-        }
-      ],
-      "tag": [
-        "Angular",
-        "RxJS",
-        "Typescript",
-        "Ionic 4",
-        "Ionic 3",
-        "Angular Animation",
-        "Hammer.js",
-        "SCSS",
-        "HTML5"
-      ]
-    }
-  ],
   "word_way": [
     {
       "title": "글길 리팩토링 - 글적글적",
       "date": "2019-09 ~ ",
       "bgColor": "25272b",
-      "desc": "우리의 삶에서 단어는 많은 부분을 차지하고 있습니다. 하루에도 셀 수 없이 많은 단어를 내뱉고 쓰기를 반복합니다. 하지만 이러한 과정 속에서 자주 사용하지 않는 단어이거나, 많이 사용하는 단어라도 갑자기 기억이 나지 않는 경우 답답해하고는 합니다. 분명 이 단어가 어떤 의미를 가지고 있었는지 생각이 나지만 기존 사전의 경우, 의미로 검색 하면 원하는 결과를 찾을 수 없어 도움이 되지 못합니다. 글길은 이러한 문제점을 해결하기 위한 작은 생각의 전환에서 시작되었습니다. 단어로 의미를 찾는 사전이 아닌 의미로 단어를 찾는 사전 글길.기존에 진행했던 프로젝트인 글길을 react로 리팩토링 진행중입니다. 아토믹 디자인 패턴을 이용해 컴포넌트 개발했습니다. storybook을 이용해 컴포넌트를 독립된 환경에서 개발하고 각각의 상태 별로 변경되는 내용들을 쉽게 관리하도록 했습니다.",
-      "mp4": "https://www.youtube.com/embed/BcSEBIlDYyc",
+      "desc": "기존에 진행했던 프로젝트인 글길을 react로 리팩토링 진행중입니다.<br>리팩토링 개발 언어를 react로 정한 후 GDG DevFest Seoul 2019에서 Atomic Design 패턴에 대한 발표를 듣고 프로젝트에서 적용하면 좋을 것 같다는 생각이 들어 이번 리팩토링에 적용하게 되었습니다.<br>실제로 Atomic Design 패턴을 적용해서 개발하니 미리 어떤 컴포넌트들이 있는지 파악하고 공통적인 요소들을 묶어 컴포넌트를 설계하는데 도움이 되었습니다.<br>Storybook은 UI 컴포넌트를 앱의 의존성을 걱정하지 않고 독립적으로 빌드할 수 있고, knob 애드온을 사용하면 props 을 제어하면서 상태에 따른 결과를 바로 볼 수 있어서 좋았습니다.<br>Styled-components을 사용함으로써 props를 바탕으로 한 조건부 스타일링과 이미 스타일링 된 컴포넌트 자체를 상속받아 구현하는 것을 통해 UI 재사용성을 높일 수 있었습니다.",
       "contents": [
         {
           "title": "Atoms",
@@ -281,12 +280,53 @@
       ]
     }
   ],
+  "geulgil": [
+    {
+      "title": "글길",
+      "date": "2019-09 ~ ",
+      "bgColor": "25272b",
+      "desc": "우리는 하루에도 수십 번씩 글을 쓰고 접하게 됩니다.<br>우리가 글을 쓸 때 단어의 의미는 알지만 그 의미를 가지고 있는 단어가 생각나지 않는 경우가 종종 있습니다.<br>글길은 이러한 문제점을 해결하기 위해 만들어졌습니다.<br>글길은 단어를 검색하면 의미를 알려주는 기존 사전에 대한 것을 역발상을 하여 의미를 검색하면 그 의미를 포함하는 단어가 나오는 서비스입니다.<br><br>디자인에 맞게 전체적인 앱 UI를 개발했습니다.",
+      "mp4": "https://www.youtube.com/embed/BcSEBIlDYyc",
+      "contents": [
+        {
+          "multi": true,
+          "title": "글길 작업 내용",
+          "details": [
+            {
+              "url": "./assets/imgs/geulgil_search.png",
+              "desc": "메인 검색 페이지"
+            },
+            {
+              "url": "./assets/imgs/geulgil_list2.png",
+              "desc": "검색 결과 페이지"
+            },
+            {
+              "url": "./assets/imgs/geulgil_reserch.png",
+              "desc": "결과내 재검색 페이지"
+            },
+            {
+              "url": "./assets/imgs/geulgil_reserch_after.png",
+              "desc": "결과내 재검색 결과 페이지" 
+            },
+            {
+              "url": "./assets/imgs/geulgil_detail.png",
+              "desc": "단어 상세 정보 화면"
+            }
+          ]
+        }
+      ],
+      "tag": [
+        "Android Studio",
+        "Java"
+      ]
+    }
+  ],
   "daJeongBot": [
     {
       "title": "일상 속에 하루를 담다 - 다정봇",
       "date": "2018-7 ~ 2018-10",
       "bgColor": "f8e750",
-      "desc": "다정봇은 챗봇과의 대화를 통해 자연스럽게 다이어리를 기록할 수 있도록 도와주는 서비스입니다.<br>챗봇 캐릭터별로 말투와 캐릭터 디자인이 달라 원하는 챗봇과 친구가 되어 대화를 할 수 있습니다.<br><br>- UI 개발<br>- 튜토리얼<br>- 일정 사진 첨부 기능<br>- 챗봇 캐릭터 변경 기능<br>- 로그인 & 회원가입 기능<br>- 문장 전체를 입력할 필요없이 짧은 단어 입력을 통한 문장 자동완성 기능<br>- 챗봇과의 대화를 통해 이루어지는 번거러운 수정과 삭제 과정을 단순화해준 캘린더 기능<br>- 해당하는 날짜에 대한 일정을 보여주고 일정을 선택하면 해당하는 일정에 대한 상세 정보를 보여주는 추억 회상하기 기능<br><br>위와 같은 기능들을 개발하였습니다.",
+      "desc": "다정봇은 일정 관리와 다이어리 기능을 합쳐 일정에 관한 자세한 내용을 다이어리 형식으로 쓰는 서비스입니다. <br>그리고 다정봇은 사용자가 단순히 글을 쓰는 것에서 더 나아가 챗봇과의 커뮤니케이션을 통해 챗봇이 친구처럼 일정을 관리해주고 일정에 관한 후기를 물어보면서 편리하게 기록을 할 수 있는 서비스입니다. <br> 챗봇 캐릭터별로 말투와 캐릭터 디자인이 달라 원하는 챗봇과 친구가 되어 대화를 할 수 있습니다.<br><br>- UI 개발<br>- 튜토리얼<br>- 앱 홍보 영상 제작<br>- 일정 사진 첨부 기능<br>- 챗봇 캐릭터 변경 기능<br>- 로그인 & 회원가입 기능<br>- 문장 전체를 입력할 필요없이 짧은 단어 입력을 통한 문장 자동완성 기능<br>- 챗봇과의 대화를 통해 이루어지는 번거러운 수정과 삭제 과정을 단순화해준 캘린더 기능<br>- 해당하는 날짜에 대한 일정을 보여주고 일정을 선택하면 해당하는 일정에 대한 상세 정보를 보여주는 추억 회상하기 기능<br><br>위와 같은 기능들을 개발하였습니다.",
       "mp4": "https://www.youtube.com/embed/IB5ciGW4e84",
       "contents": [
         {
@@ -342,79 +382,62 @@
   "ohDormitory": [
     {
       "title": "오늘 몇 시 점호야? - 오몇점 앱",
-      "date": "2018-6 ~ 2018-6 (Ios)<br>2017-9 ~ 2017-1 (Android)",
+      "date": "2018-6 ~ 2018-6 (Ios)<br>2017-9 ~ 2017-1 (Android)<br>2018-5 ~ 2018-5 (관리자 웹사이트)",
       "bgColor": "f0cd57",
-      "desc": "기숙사생들을 위한 앱으로 기존에 종이로 전달되던 공지사항, 외박일지, 청소구역을 간편하게 앱으로 알림 받고 외박 인증도 QR코드로 할 수 있도록 만들었습니다.<br>오몇점에서 UI개발을 담당했습니다.Ios와 Android를 지원합니다. 교내 소프트웨어 대회 최우수상을 받았습니다.",
+      "desc": "기숙사에서는 외박일지, 세탁일지, 외박증, 청소구역, 공지사항, 기숙사 상벌점 기록과 같은 많은 서류들이 수기로 기록됩니다.<br>오몇점은 기숙사 상황에 대해 파악이 가능하고 일지를 기록하고 사감 선생님의 공지를 전달 받을 수 있도록 하여 기숙사생들이 보다 편한 기숙사 생활을 할 수 있도록 하기 위해 시작되었습니다.<br>오몇점에서 IOS와 Android 앱 UI개발과 관리자 웹사이트 디자인과 프론트엔드 개발을 담당했습니다.<br>Ios와 Android 그리고 관리자 웹사이트를 지원합니다.",
       "contents": [
         {
           "multi": true,
-          "title": "Snowpalm 앱 작업 내용",
+          "title": "오몇점 앱 작업 내용",
           "details": [
             {
               "url": "./assets/imgs/detail/oh_list.png",
-              "desc": "튜토리얼 페이지"
+              "desc": "공지사항 페이지"
             },
             {
               "url": "./assets/imgs/detail/oh_out.png",
-              "desc": "챗봇 변경 기능"
+              "desc": "외박신청"
             },
             {
               "url": "./assets/imgs/detail/oh_clean.png",
-              "desc": "캘린더 기능"
+              "desc": "세탁일지 페이지"
             },
             {
               "url": "./assets/imgs/detail/oh_camera.png",
-              "desc": "문장 자동완성 기능"
+              "desc": "외박인증 페이지"
             }
           ]
-        }
-      ],
-      "tag": [
-        "Angular",
-        "RxJS",
-        "Typescript",
-        "Ionic 4",
-        "Ionic 3",
-        "SCSS",
-        "HTML5"
-      ]
-    },
-    {
-      "title": "오늘 몇 시 점호야? - 오몇점 (관리자 웹사이트)",
-      "date": "2018-5 ~ 2018-5",
-      "bgColor": "f0cd57",
-      "desc": "다정봇은 챗봇과의 대화를 통해 자연스럽게 다이어리를 기록할 수 있도록 도와주는 서비스입니다.<br>챗봇 캐릭터별로 말투와 캐릭터 디자인이 달라 원하는 챗봇과 친구가 되어 대화를 할 수 있습니다.<br><br>- UI 개발<br>- 튜토리얼<br>- 일정 사진 첨부 기능<br>- 챗봇 캐릭터 변경 기능<br>- 로그인 & 회원가입 기능<br>- 문장 전체를 입력할 필요없이 짧은 단어 입력을 통한 문장 자동완성 기능<br>- 챗봇과의 대화를 통해 이루어지는 번거러운 수정과 삭제 과정을 단순화해준 캘린더 기능<br>- 해당하는 날짜에 대한 일정을 보여주고 일정을 선택하면 해당하는 일정에 대한 상세 정보를 보여주는 추억 회상하기 기능<br><br>위와 같은 기능들을 개발하였습니다.",
-      "contents": [
+        },
         {
-          "title": "Snowpalm 앱 작업 내용",
+          "title": "오몇점 관리자 웹사이트 작업 내용",
           "details": [
             {
               "url": "./assets/imgs/detail/oh_web_info.png",
-              "desc": "튜토리얼 페이지"
+              "desc": "상벌점 조회 페이지"
             },
             {
               "url": "./assets/imgs/detail/oh_web_list.png",
-              "desc": "챗봇 변경 기능"
+              "desc": "공지사항 페이지"
             },
             {
               "url": "./assets/imgs/detail/oh_web_clean.png",
-              "desc": "캘린더 기능"
+              "desc": "세탁일지 페이지"
             },
             {
               "url": "./assets/imgs/detail/oh_web_out.png",
-              "desc": "문장 자동완성 기능"
+              "desc": "외박 관리 페이지"
             }
           ]
         }
       ],
       "tag": [
-        "Angular",
-        "RxJS",
-        "Typescript",
-        "Ionic 4",
-        "Ionic 3",
-        "SCSS",
-        "HTML5"
+        "Android Studio",
+        "Java",
+        "Swift",
+        "JavaScript",
+        "jQuery",
+        "HTML5",
+        "CSS3"
       ]
     }
   ],
