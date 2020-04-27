@@ -3,13 +3,15 @@
   <div class="grid">
     <ul class="info">
       <li>
-        <img src="assets/svgs/phone.svg" /> - {{data.contact.tel}}
+        <img lazyLoad="assets/svgs/phone.svg" /> - {{data.contact.tel}}
       </li>
       <li>
-        <img src="assets/svgs/mail.svg" /> - &nbsp;<a [href]="'mailto:' + data.contact.email">{{data.contact.email}}</a>
+        <img lazyLoad="assets/svgs/mail.svg" /> - &nbsp;<a
+          [href]="'mailto:' + data.contact.email">{{data.contact.email}}</a>
       </li>
       <li>
-        <img src="assets/svgs/github-sign.svg" /> - &nbsp;<a [href]="data.contact.github">{{data.contact.github}}</a>
+        <img lazyLoad="assets/svgs/github-sign.svg" /> - &nbsp;<a
+          [href]="data.contact.github">{{data.contact.github}}</a>
       </li>
     </ul>
     <p class="desc" [innerHtml]="data.about|newLine"></p>
@@ -57,6 +59,7 @@
       </div>
       <p class="position">{{career.position}}</p>
       <p [innerHtml]="career.desc"></p>
+      <a [href]="career.link">{{career.link}}</a>
     </div>
     <ul class="sub-project">
       <li *ngFor="let project of career.project" class="project-list">

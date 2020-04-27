@@ -5,9 +5,8 @@
     <div class="grid">
       <figure class="effect-sarah" *ngFor="let data of datas.develop.career" (click)="gotoDetail(data.id)">
         <div [ngStyle]="{
-            'background-color': '#' + data.bgColor, 
-            'background-image': 'url(' + data.url + ')'
-          }" class="background"></div>
+            'background-color': '#' + data.bgColor
+          }" class="background" [lazyLoad]="data.url"></div>
         <figcaption>
           <h3>{{data.title}}<span>{{data.emphasisTitle}}</span></h3>
           <div>
@@ -20,9 +19,8 @@
     <div class="grid">
       <figure class="effect-sarah" *ngFor="let data of datas.develop.project" (click)="gotoDetail(data.id)">
         <div [ngStyle]="{
-            'background-color': '#' + data.bgColor, 
-            'background-image': 'url(' + data.url + ')'
-          }" class="background"></div>
+            'background-color': '#' + data.bgColor
+          }" class="background" [lazyLoad]="data.url"></div>
         <figcaption>
           <h3>{{data.title}}<span>{{data.emphasisTitle}}</span></h3>
           <div>
@@ -38,9 +36,8 @@
     <div class="grid">
       <figure class="effect-sarah" *ngFor="let data of datas.design" (click)="gotoDetail(data.id)">
         <div [ngStyle]="{
-          'background-color': '#' + data.bgColor, 
-          'background-image': 'url(' + data.url + ')'
-        }" class="background"></div>
+          'background-color': '#' + data.bgColor
+        }" class="background" [lazyLoad]="data.url"></div>
         <figcaption>
           <h3>{{data.title}}<span>{{data.emphasisTitle}}</span></h3>
           <div>
