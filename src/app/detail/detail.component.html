@@ -12,7 +12,7 @@
       <div class="grid">
         <ng-template [ngIf]="content.multi" [ngIfElse]="single">
           <figure *ngFor="let detail of content.details">
-            <img [src]="detail.url" />
+            <img [lazyLoad]="detail.url"/>
             <figcaption>
               <span [innerHtml]="detail.desc|newLine"></span>
             </figcaption>
@@ -20,7 +20,7 @@
         </ng-template>
         <ng-template #single>
           <figure *ngFor="let detail of content.details" class="single">
-            <img [src]="detail.url" />
+            <img [lazyLoad]="detail.url"/>
             <figcaption>
               <span [innerHtml]="detail.desc|newLine"></span>
             </figcaption>

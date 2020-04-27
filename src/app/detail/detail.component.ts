@@ -22,7 +22,6 @@ export class DetailComponent implements OnInit {
     this.http.get<any>('./assets/data/detail.json', { observe: 'response' })
       .subscribe(
         resp => {
-          console.log('성공', resp.body);
           this.datas = resp.body[this.id];
         },
         err => { console.log('error' + err.error); }
