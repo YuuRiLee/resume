@@ -477,7 +477,9 @@
               "desc": "재생 중인 곡"
             },
             {
-              "url": "./assets/imgs/design_detail/music.gif",
+              "type": "video",
+              "thumbnail": "./assets/imgs/design_detail/music.png",
+              "url": "./assets/videos/music.mp4",
               "desc": "다음 곡 재생 프로토타입"
             }
           ]
