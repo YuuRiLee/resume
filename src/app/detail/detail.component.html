@@ -12,7 +12,14 @@
       <div class="grid">
         <ng-template [ngIf]="content.multi" [ngIfElse]="single">
           <figure *ngFor="let detail of content.details">
-            <img [lazyLoad]="detail.url"/>
+            <ng-template [ngIf]="detail.type === 'video'" [ngIfElse]="img">
+              <video [poster]="detail.thumbnail" ref="video" id="video" controls>
+                <source [src]="detail.url" type="video/mp4">Sorry. Your browser doesn't support video.
+              </video>
+            </ng-template>
+            <ng-template #img>
+              <img [lazyLoad]="detail.url"/>
+            </ng-template>
             <figcaption>
               <span [innerHtml]="detail.desc|newLine"></span>
             </figcaption>
