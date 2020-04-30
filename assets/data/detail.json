@@ -11,35 +11,51 @@
           "title": "Snowpalm Animation 작업 내용",
           "details": [
             {
-              "url": "./assets/imgs/detail/header-center-searchbar.gif",
+              "type": "video",
+              "thumbnail": "./assets/imgs/detail/header-center-searchbar.png",
+              "url": "./assets/videos/header-center-searchbar.mov",
               "desc": "Title의 위치가 중앙인 Header Parallax와<br>Search Bar 애니메이션"
             },
             {
-              "url": "./assets/imgs/detail/header-searchbar2.gif",
+              "type": "video",
+              "thumbnail": "./assets/imgs/detail/header-searchbar2.png",
+              "url": "./assets/videos/header-searchbar2.mov",
               "desc": "title의 위치가 죄측인 Header Parallax와<br>Search Bar 애니메이션"
             },
             {
-              "url": "./assets/imgs/detail/backdrop.gif",
+              "type": "video",
+              "thumbnail": "./assets/imgs/detail/backdrop2.png",
+              "url": "./assets/videos/backdrop2.mov",
               "desc": "슬라이드에 따라 아래 페이지의 z값이 변하는<br>back drop 애니메이션"
             },
             {
-              "url": "./assets/imgs/detail/refresher.gif",
+              "type": "video",
+              "thumbnail": "./assets/imgs/detail/refresh.png",
+              "url": "./assets/videos/refresh.mov",
               "desc": "Refresher 애니메이션과 새로고침 스크롤을 하는<br>정도에 따라 기울기가 변하는 애니메이션"
             },
             {
-              "url": "./assets/imgs/detail/card-click.gif",
+              "type": "video",
+              "thumbnail": "./assets/imgs/detail/card-click.png",
+              "url": "./assets/videos/card-click.mov",
               "desc": "카드 클릭 시 페이지 전환 애니메이션"
             },
             {
-              "url": "./assets/imgs/detail/card_back.gif",
+              "type": "video",
+              "thumbnail": "./assets/imgs/detail/card-back-thumb.png",
+              "url": "./assets/videos/card-back.mov",
               "desc": "카드 상세 화면에서 뒤로 가기 버튼<br>클릭 시 페이지 전환 애니메이션"
             },
             {
-              "url": "./assets/imgs/detail/filter-icon.gif",
+              "type": "video",
+              "thumbnail": "./assets/imgs/detail/filter-icon.png",
+              "url": "./assets/videos/filter-icon.mov",
               "desc": "Icon Morphing 애니메이션"
             },
             {
-              "url": "./assets/imgs/detail/loadmore.gif",
+              "type": "video",
+              "thumbnail": "./assets/imgs/detail/loadmore.png",
+              "url": "./assets/videos/loadmore.mov",
               "desc": "리스트 스크롤 애니메이션"
             }
           ]
@@ -461,7 +477,9 @@
               "desc": "재생 중인 곡"
             },
             {
-              "url": "./assets/imgs/design_detail/music.gif",
+              "type": "video",
+              "thumbnail": "./assets/imgs/design_detail/music.png",
+              "url": "./assets/videos/music.mp4",
               "desc": "다음 곡 재생 프로토타입"
             }
           ]
