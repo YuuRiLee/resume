@@ -293,7 +293,7 @@
           "title": "글길 작업 내용",
           "details": [
             {
-              "url": "./assets/imgs/geulgil_search.png",
+              "url": "./assets/imgs/detail/geulgil_search.png",
               "desc": "메인 검색 페이지"
             },
             {
@@ -301,15 +301,15 @@
               "desc": "검색 결과 페이지"
             },
             {
-              "url": "./assets/imgs/geulgil_reserch.png",
+              "url": "./assets/imgs/detail/geulgil_reserch.png",
               "desc": "결과내 재검색 페이지"
             },
             {
-              "url": "./assets/imgs/geulgil_reserch_after.png",
+              "url": "./assets/imgs/detail/geulgil_reserch_after.png",
               "desc": "결과내 재검색 결과 페이지" 
             },
             {
-              "url": "./assets/imgs/geulgil_detail.png",
+              "url": "./assets/imgs/detail/geulgil_detail.png",
               "desc": "단어 상세 정보 화면"
             }
           ]
@@ -491,7 +491,7 @@
               "desc": "상대방이 대화 작성 중일 경우 프로토타입"
             },
             {
-              "url": "./assets/imgs/neu_작성완료.jpg",
+              "url": "./assets/imgs/neu_writedone.jpg",
               "desc": "채팅 화면"
             }
           ]
@@ -517,19 +517,19 @@
           "title": "디자인 작업 내용",
           "details": [
             {
-              "url": "./assets/imgs/book_메인.jpg",
+              "url": "./assets/imgs/book_main.jpg",
               "desc": "메인 화면"
             },
             {
-              "url": "./assets/imgs/design_detail/book_메인화면클릭.jpg",
+              "url": "./assets/imgs/design_detail/book_main_click.jpg",
               "desc": "캘린더 아이콘을 클릭한 도서를 읽은<br>날짜들이 노란색으로 변경"
             },
             {
-              "url": "./assets/imgs/design_detail/book_일반 검색.jpg",
+              "url": "./assets/imgs/design_detail/book_normal_search.jpg",
               "desc": "일반 검색 화면"
             },
             {
-              "url": "./assets/imgs/design_detail/book_해시태그클릭.jpg",
+              "url": "./assets/imgs/design_detail/book_click_tag.jpg",
               "desc": "해시태그 검색 화면"
             }
           ]
